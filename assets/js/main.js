@@ -226,9 +226,9 @@ app.contact = {
       } else {
         alertify.log(msg2);
         var data = {
-          service_id: "gmail",
-          template_id: "template_YeJhZkgb", // keys from email.js
-          user_id: "user_px78o72apVjzT28JpFXF7", // keys from email.js
+          service_id: "service_ieghsrd",
+          template_id: "template_nwgmtnk", // keys from email.js
+          user_id: "user_MS9QNW4V403fpuzk3", // keys from email.js
           template_params: {
             name: inputs["name"].value,
             subject: inputs["subject"].value,
