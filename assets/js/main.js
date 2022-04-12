@@ -228,7 +228,7 @@ app.contact = {
         var data = {
           service_id: "service_ieghsrd",
           template_id: "template_nwgmtnk", // keys from email.js
-          user_id: "user_MS9QNW4V403fpuzk3", // keys from email.js
+          user_id: "MS9QNW4V403fpuzk3", // keys from email.js
           template_params: {
             name: inputs["name"].value,
             subject: inputs["subject"].value,
@@ -287,8 +287,8 @@ function validateEmail(email) {
 
 function initMap() {
   // position we will use later
-  var lat = 44.96366;
-  var lon = 19.61045;
+  var lat = 26.846251;
+  var lon = 80.949028;
   // initialize map
   map = L.map("map").setView([lat, lon], 13);
   // set map tiles source
